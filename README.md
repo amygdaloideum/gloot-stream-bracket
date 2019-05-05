@@ -1,6 +1,6 @@
-# G-LOOT admin parent
+# G-loot stream bracket
 
-This applications is the father to all admin children.
+Showing tournament brackets on stream
 
 ## Get started
 * run `npm i && npm run dev`
