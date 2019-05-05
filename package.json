@@ -1,0 +1,33 @@
+{
+  "name": "react-fusebox-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node fuse",
+    "dev": "node scripts/dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "@gloot/fonts": "git+ssh://git@gitlab.gloot.com:gloot/payments/gloot-fonts.git#semver:^1.0.2",
+    "@gloot/icons": "git+ssh://git@gitlab.gloot.com:gloot/payments/gloot-icons.git#semver:^1.0.8",
+    "fuse-box": "^3.6.0",
+    "git-rev-sync": "^1.12.0",
+    "jwt-decode": "^2.2.0",
+    "query-string": "^6.4.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "styled-components": "^4.2.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "history": "^4.9.0",
+    "minireset.css": "0.0.4",
+    "node-fetch": "^2.3.0"
+  }
+}
