@@ -10,7 +10,7 @@ export default [
             participants: [
               {
                 name: 'Costanza & Sigrid',
-                score: 100,
+                score: 42,
                 won: true,
               },
               {
