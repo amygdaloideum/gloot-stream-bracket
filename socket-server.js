@@ -15,6 +15,14 @@ io.on('connection', function(socket){
     console.log('message: ' + msg);
     io.emit('SHOW_PAIR', msg);
   });
+  socket.on('UPDATE_SCORE', function(msg){
+    console.log('score: ' + msg);
+    io.emit('UPDATE_SCORE', msg);
+  });
+  socket.on('SET_HIDDEN', function(msg){
+    console.log('hidden: ' + msg);
+    io.emit('SET_HIDDEN', msg);
+  });
 });
 
 http.listen(3000, function(){
